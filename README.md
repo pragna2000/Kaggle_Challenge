@@ -3,6 +3,17 @@
 
 ## Summary of Workdone
 
-* Data processing was done to get rid of any Nan vairbales. As these variables did not exist in the orginial dataset, they either had to be removed or replaced. Empty or unnecessary columns were also removed. 
-* 
-### Data
+* Data cleaning was done to get rid of any Nan vairbales. As these variables did not exist in the orginial dataset, they either had to be removed or replaced. Empty or unnecessary columns were also removed. 
+
+* Data procssessing consisted of ecoding and normalizing data as well as finding out what variables were the most impactful to the dataset. 
+
+* Models
+  - XGBoostRegression
+  - Random Forest Regressor
+  - Decision Tree Regressor
+
+* Performace
+  - XGB R-squared: 0.85
+  - Random Forest R-squared: 0.84
+  - Decision Tree : R-squared: 0.50
+
